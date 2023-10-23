@@ -1,0 +1,9 @@
+{
+    "C_Cpp.inlayHints.parameterNames.enabled": true,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build-femu/compile_commands.json",
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/build-femu",
+        "--header-insertion=never",
+    ]
+}
